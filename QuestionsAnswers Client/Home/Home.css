@@ -1,0 +1,29 @@
+.container {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: bold;
+  line-height: 1.1;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+
+input[type="checkbox"] {
+  width: 1.2em;
+  height: 1.2rem;
+  accent-color: #747bff;
+}
+
+select {
+  width: 50%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
